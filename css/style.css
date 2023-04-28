@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image:url("../images/Camping\ with\ a\ caravan-cuate.png");
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    gap: 24rem;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo h3{
+    color: rgb(110, 110, 199);
+    margin-left: 10px;          
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:  rgb(110, 110, 199);
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline ;
+}
+
+.book{
+    display: flex;
+    color:rgb(255, 123, 0);
+    align-items: center;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color:  rgb(3, 3, 94);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.para p{
+    color:  rgb(110, 110, 199);
+    text-align: center;
+}
+
+.btn button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: rgb(206, 110, 20);
+}
