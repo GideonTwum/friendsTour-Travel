@@ -13,14 +13,16 @@ body{
 
 header{
     display: flex;
-    gap: 24rem;
+    gap: 15rem;
     align-items: center;
     margin-top: 20px;
+    font-size: 15px;
+
 }
 
 .logo h3{
     color: rgb(110, 110, 199);
-    margin-left: 10px;          
+    margin-left: 10rem;          
 }
 
 .navbar ul{
